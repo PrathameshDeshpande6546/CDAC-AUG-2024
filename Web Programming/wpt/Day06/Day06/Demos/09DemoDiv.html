@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      .A {
+       justify-content: center;
+        text-align: center;
+      }
+
+      .C {
+        background-color: gray;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30px;
+        color: gray;
+      }
+
+      .B {
+        display: flex;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <center>
+    <table border="1"><tr><td>
+    <input type="button" value="Play Again" id="Play Again" onclick="refresh()">
+    <br>
+    <hr/>
+  
+    <div class="B">
+      <div class="C" onclick="changecolor()">gold</div>
+      <div class="C" onclick="changecolor()"></div>
+      <div class="C" onclick="changecolor()"></div>
+      
+    </div>
+    <br>
+    <div class="B">
+      <div class="C" onclick="changecolor()"></div>
+      <div class="C" onclick="changecolor()"></div>
+      <div class="C" onclick="changecolor()"></div>
+    </div>
+    <br>
+    <div class="B">
+      <div class="C" onclick="changecolor()"></div>
+      <div class="C" onclick="changecolor()"></div>
+      <div class="C" onclick="changecolor()"></div>
+    </div>
+
+
+</td>
+</tr>
+</table>
+</center>
+    <script>
+    function refresh() {
+      debugger;
+      window.location.href="09DemoDiv.html";
+    }
+    function changecolor(){
+        debugger;
+        var divs=document.getElementsByClassName("C");
+    }
+    </script>
+
+  </body>
+</html>
