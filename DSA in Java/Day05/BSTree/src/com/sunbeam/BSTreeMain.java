@@ -17,6 +17,7 @@ public class BSTreeMain {
 		bst.addNode(7);
 		bst.addNode(9);
 		
+		/*
 		bst.preOrder();
 		bst.inOrder();
 		bst.postOrder();
@@ -27,6 +28,15 @@ public class BSTreeMain {
 		else
 			System.out.println("Key is found");
 		
+		
+		bst.DFSTraversal();
+		bst.BFSTraversal();
+		
+		*/
+		
+		bst.inOrder();
+		bst.deleteNode(6);
+		bst.inOrder();
 
 	}
 
