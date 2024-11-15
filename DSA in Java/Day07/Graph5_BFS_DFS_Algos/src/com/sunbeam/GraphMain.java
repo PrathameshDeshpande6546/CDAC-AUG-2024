@@ -19,8 +19,8 @@ public class GraphMain {
 		//g.BFSTraversal(0);
 		//g.singleSourcePathLength(1);
 		
-		g.DFSSpannigTree(0);
-		g.BFSSpannigTree(0);
+		g.DFSSpanningTree(0);
+		g.BFSSpanningTree(0);
 
 		sc.close();
 	}

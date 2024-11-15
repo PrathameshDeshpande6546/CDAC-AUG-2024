@@ -124,7 +124,7 @@ public class Graph {
 			System.out.println(start + "->" + i + "=" + length[i]);	
  	}
 	
-	public void DFSSpannigTree(int start) {
+	public void DFSSpanningTree(int start) {
 		//0. create stack to push vertices
 		Stack<Integer> st = new Stack<Integer>();
 		//0. create an array to mark the vertices
@@ -151,7 +151,7 @@ public class Graph {
 		System.out.println();
 	}
 	
-	public void BFSSpannigTree(int start) {
+	public void BFSSpanningTree(int start) {
 		//0. create a queue to push vertices
 		Queue<Integer> q = new LinkedList<Integer>();
 		//0. create array to mark the vertices
