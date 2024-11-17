@@ -25,7 +25,7 @@ public class Deque {
 	
 	
 	public int peekRear() {
-		//retrun ??
+	
 		return list.getHeadData();
 	}
 }
