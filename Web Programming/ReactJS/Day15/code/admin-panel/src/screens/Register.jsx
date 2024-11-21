@@ -31,6 +31,7 @@ function Register() {
       toast.warn('Password does not match')
     } else {
       const result = await signup(firstName, lastName, email, password, phone)
+      console.log(result)
       if (result['status'] == 'success') {
         toast.success('Successfully registered a new admin')
 
@@ -38,6 +39,7 @@ function Register() {
         navigate(-1)
       } else {
         toast.error(result['error'])
+        toast.error('error')
       }
     }
   }

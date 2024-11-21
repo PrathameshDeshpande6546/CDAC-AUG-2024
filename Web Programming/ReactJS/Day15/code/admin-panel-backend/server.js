@@ -15,6 +15,6 @@ const categoryRouter = require('./routes/category')
 app.use('/admin', adminRouter)
 app.use('/category', categoryRouter)
 
-app.listen(4000, '0.0.0.0', () => {
+app.listen(4000,() => {
   console.log(`server started on port 4000`)
 })

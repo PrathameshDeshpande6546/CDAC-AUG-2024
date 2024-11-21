@@ -9,9 +9,9 @@ const router = express.Router()
 
 router.post('/signup', (request, response) => {
   const { firstName, lastName, email, password, phone } = request.body
-
+  
   const statement = `
-        INSERT INTO Admin (
+        INSERT INTO admin (
             firstName, lastName, email, password, phone
         ) VALUES (?, ?, ?, ?, ?);
     `
@@ -23,6 +23,8 @@ router.post('/signup', (request, response) => {
     statement,
     [firstName, lastName, email, encryptedPassword, phone],
     (error, result) => {
+      console.log(error)
+      console.log(result)
       response.send(utils.createResult(error, result))
     }
   )
