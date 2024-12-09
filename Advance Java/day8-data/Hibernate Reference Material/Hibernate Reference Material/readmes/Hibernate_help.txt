@@ -30,7 +30,8 @@ It is a provider(factory) of session objects.
 We use sessionfactory object to create session 
 object(via openSession or getCurrentSession).
 It is singleton(1 instance per DB / application) ,immutable,inherently thrd safe.
-It is a heavy weight object, therefore it has to
+It is a hea
+vy weight object, therefore it has to
 be created only once in the beginning for an application & that too at the very beginning.
 It is associtated with L2 cache(must be explicitely enabled)
 
