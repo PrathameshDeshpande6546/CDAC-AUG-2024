@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_05</title>
+    <link rel="stylesheet" href="car.css">
+    <script src="car.js"></script>
+</head>
+<body style="position: relative;">
+    <div style="position: absolute;">
+        <img id="car" src="image.png" alt="" width="340px" height="200px">
+    </div>
+       <div style="border: 2px solid black; width: 510px;position: absolute; top:200px;"></div>
+       <lable style="position: absolute; top:280px; margin-top: 20px;">X Axis :<input id="x" style="width: 150px;position: absolute;" value=""></input></lable>
+       <lable style="position: absolute; top:290px; margin-top: 50px;">Y Axis :<input id="y" style="width: 150px;position: absolute;" value=""></input></lable> <br> 
+       <button style="position: absolute; top: 210px;;" id="btn" onclick="start()">start</button><br><br>
+       <button style="position: absolute; top: 210px; margin-left: 220px;" id="btn2" onclick="stop()">stop</button>
+       <img id="crash" style="position: absolute; margin-left: 850px; top: 300px; display: none; width: 400px; height: 300px;" src="smoke.webp"/>
+       <b id="carText" style="position: absolute; margin-left: 1000px; top: 400px; display: none; color: rgb(253, 253, 253);" >Car Crashed...!</b>
+     
+</body>
+</html>
