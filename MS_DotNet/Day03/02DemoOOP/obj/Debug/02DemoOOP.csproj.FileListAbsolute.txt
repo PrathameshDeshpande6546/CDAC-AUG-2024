@@ -1,0 +1,7 @@
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\bin\Debug\02DemoOOP.exe.config
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\bin\Debug\02DemoOOP.exe
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\bin\Debug\02DemoOOP.pdb
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\obj\Debug\02DemoOOP.csproj.AssemblyReference.cache
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\obj\Debug\02DemoOOP.csproj.CoreCompileInputs.cache
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\obj\Debug\02DemoOOP.exe
+D:\CDAC-AUG-2024\MS_DotNet\Day03\02DemoOOP\obj\Debug\02DemoOOP.pdb
