@@ -22,7 +22,7 @@ namespace _19DemoThreading
             #region Multiple Threads(10) working on DoSomething
             //for (int i = 0; i < 10; i++)
             //{
-            //    Thread thread = new Thread(new ThreadStart(DoSomething));
+            //  Thread thread = new Thread(new ThreadStart(DoSomething));
             //    thread.Start();
             //}
             #endregion
