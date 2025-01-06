@@ -7,7 +7,7 @@ namespace _002DemoMVC.Model
         public DbSet<Emp> Emps { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=KDACDB;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=EmpDB;Integrated Security=True");
             base.OnConfiguring(optionsBuilder);
         }
     }
