@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("18DemoPerfExpressionTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66de3d5e64dd3eba4a87272510f42d27c0d56d88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30b5b10e51ee5345555faea3c85dae2cd83c6fc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("18DemoPerfExpressionTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("18DemoPerfExpressionTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

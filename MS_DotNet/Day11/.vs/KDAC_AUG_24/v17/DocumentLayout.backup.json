@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CDAC-AUG-2024\\MS_DotNet\\Day11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57945659-7090-47BA-9952-B5EB0E51171F}|24DemoDBEF\\24DemoDBEF.csproj|d:\\cdac-aug-2024\\ms_dotnet\\day11\\24demodbef\\poco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57945659-7090-47BA-9952-B5EB0E51171F}|24DemoDBEF\\24DemoDBEF.csproj|solutionrelative:24demodbef\\poco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "POCO.cs",
+              "DocumentMoniker": "D:\\CDAC-AUG-2024\\MS_DotNet\\Day11\\24DemoDBEF\\POCO.cs",
+              "RelativeDocumentMoniker": "24DemoDBEF\\POCO.cs",
+              "ToolTip": "D:\\CDAC-AUG-2024\\MS_DotNet\\Day11\\24DemoDBEF\\POCO.cs",
+              "RelativeToolTip": "24DemoDBEF\\POCO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T05:32:08.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
