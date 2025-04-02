@@ -1,0 +1,6 @@
+package com.sunbeam.dao;
+
+public interface CustomerDao extends AutoCloseable{
+	int add(Customer c)throws Execption;
+
+}

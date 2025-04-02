@@ -1,0 +1,21 @@
+package com.sunbeam.tester;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import com.sunbeam.dao.CustomerDao;
+import com.sunbeam.dao.CustomerDaoImpl;
+import com.sunbeam.entity.Items;
+
+public class MainApp {
+	public static Scanner sc;
+	public static void main(String[] args) {
+		
+		ItemDao idoa=new ItemDaoImpl();
+		List<Items> ilist=
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.sunbeam.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+import com.sunbeam.entity.Items;
+
+public class ItemDaoImpl extends Dao implements ItemDao {
+	private PreparedStatement stmtshowVegPizza;
+	
+	
+	
+	public ItemDaoImpl() throws Exception {
+		String sqlShowVegPizza="Select * from pizza_items where type=?";
+		stmtshowVegPizza=conn.prepareStatement(sqlShowVegPizza);
+		
+	
+	}
+	@Override
+	public void close() throws Exception {
+		stmtshowVegPizza.close();
+		super.close();
+	}
+	@Override
+	public List<Items> showVegItems() throws Exception {
+		stmtshowVegPizza.setString(1, "type");
+		try(ResultSet rs=stmtshowVegPizza.executeQuery()){
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return nul;
+	}
+
+}

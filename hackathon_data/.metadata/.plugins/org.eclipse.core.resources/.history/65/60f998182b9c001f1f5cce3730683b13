@@ -1,0 +1,5 @@
+package com.sunbeam.utility;
+
+public class DBUtil {
+
+}

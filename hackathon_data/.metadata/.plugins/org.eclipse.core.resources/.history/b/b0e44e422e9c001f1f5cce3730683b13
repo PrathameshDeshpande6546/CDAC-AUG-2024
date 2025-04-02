@@ -1,0 +1,50 @@
+package com.sunbeam.entity;
+
+public class Pricing {
+	int id;
+	int itemId;
+	String sizes;
+	double price;
+	public Pricing() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Pricing(int id, int itemId, String sizes, double price) {
+		super();
+		this.id = id;
+		this.itemId = itemId;
+		this.sizes = sizes;
+		this.price = price;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getItemId() {
+		return itemId;
+	}
+	public void setItemId(int itemId) {
+		this.itemId = itemId;
+	}
+	public String getSizes() {
+		return sizes;
+	}
+	public void setSizes(String sizes) {
+		this.sizes = sizes;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	@Override
+	public String toString() {
+		return "Pricing [id=" + id + ", itemId=" + itemId + ", sizes=" + sizes + ", price=" + price + "]";
+	}
+	
+	
+
+}

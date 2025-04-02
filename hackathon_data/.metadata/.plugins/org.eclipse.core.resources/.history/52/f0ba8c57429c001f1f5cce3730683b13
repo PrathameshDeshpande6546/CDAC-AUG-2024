@@ -1,0 +1,19 @@
+package com.sunbeam.dao;
+
+import java.sql.PreparedStatement;
+
+public class PricingDaoImpl extends Dao implements PricingDao {
+	private PreparedStatement stmtSizeById;
+
+	public PricingDaoImpl() throws Exception {
+		super();
+		
+	}
+	
+	@Override
+	public void close() throws Exception {
+		
+		super.close();
+	}
+
+}

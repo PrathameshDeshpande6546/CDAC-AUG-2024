@@ -1,0 +1,11 @@
+package com.sunbeam.dao;
+
+public class Dao {
+	public abstract class Dao implements AutoCloseable{
+		protected Connection conn;
+		public Dao() throws Exception{
+			conn=DBUtil.getConnection();
+		}
+	}
+
+}

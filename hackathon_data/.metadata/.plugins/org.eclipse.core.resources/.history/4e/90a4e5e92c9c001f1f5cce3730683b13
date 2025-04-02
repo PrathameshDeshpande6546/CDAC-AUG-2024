@@ -1,0 +1,12 @@
+
+package com.sunbeam.entity;
+
+public class Customers {
+	int id;
+	String name;
+	String password;
+	String mobile;
+	String address;
+	String email;
+
+}

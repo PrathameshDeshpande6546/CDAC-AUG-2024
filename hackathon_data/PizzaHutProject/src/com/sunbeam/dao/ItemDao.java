@@ -1,0 +1,13 @@
+package com.sunbeam.dao;
+
+import java.util.List;
+
+import com.sunbeam.entity.Items;
+
+public interface ItemDao extends AutoCloseable {
+List<Items> showVegItems(String type) throws Exception;
+List<Items> showNonVegItems(String type) throws Exception;
+
+	
+
+}

@@ -1,0 +1,10 @@
+package com.sunbeam.entity;
+
+public class Pricing {
+	int id;
+	int itemId;
+	String sizes;
+	double price;
+	
+
+}

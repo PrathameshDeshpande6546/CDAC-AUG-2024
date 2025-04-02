@@ -1,0 +1,14 @@
+package com.sunbeam.dao;
+
+public class ItemDaoImpl extends Dao implements ItemDao {
+
+	public ItemDaoImpl() throws Exception {
+	
+	}
+	@Override
+	public void close() throws Exception {
+	
+		super.close();
+	}
+
+}

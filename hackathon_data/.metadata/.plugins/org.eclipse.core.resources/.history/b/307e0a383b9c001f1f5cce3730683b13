@@ -1,0 +1,25 @@
+package com.sunbeam.utility;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBUtil {
+	public static final String Db_Driver="com.mysql.cj.jdbc.Driver";
+	public static final String Db_Url="jdbc:mysql://localhost:3306/PizzaHut";
+	public static final String Db_User="KD1-86639-Prathamesh";
+	public static final String Db_Pass="Prathamesh123";
+	
+	static {
+		try {
+			Class.forName(Db_Driver);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static Connection getConnection() throws Exception{
+		Connection conn=DriverManager.getConnection(Db_Url, Db_User, Db_Driver);
+		return conn;
+	}
+
+};

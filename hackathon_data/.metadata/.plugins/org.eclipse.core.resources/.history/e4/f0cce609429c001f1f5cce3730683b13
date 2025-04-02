@@ -1,0 +1,16 @@
+package com.sunbeam.dao;
+
+public class PricingDaoImpl extends Dao implements PricingDao {
+
+	public PricingDaoImpl() throws Exception {
+		super();
+		
+	}
+	
+	@Override
+	public void close() throws Exception {
+		
+		super.close();
+	}
+
+}

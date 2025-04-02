@@ -1,0 +1,10 @@
+package com.sunbeam.dao;
+
+public interface ItemDao extends Dao {
+
+	public ItemDao() throws Exception {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

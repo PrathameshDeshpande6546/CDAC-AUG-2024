@@ -1,0 +1,11 @@
+package com.sunbeam.entity;
+
+import java.sql.Date;
+
+public class Orders {
+	int id;
+	int customerId;
+	Date ordeerTime ;
+	String status;
+
+}

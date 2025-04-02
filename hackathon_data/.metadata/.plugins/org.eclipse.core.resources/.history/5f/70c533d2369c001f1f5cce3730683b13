@@ -1,0 +1,23 @@
+package com.sunbeam.dao;
+
+import java.sql.PreparedStatement;
+
+import com.sunbeam.entity.Customers;
+
+public class CustomerDaoImpl extends Dao implements CustomerDao {
+private PreparedStatement stmtAdd;
+	
+	
+	public CustomerDaoImpl() throws Exception {
+		String sqlAdd="Insert into customers(name,password,mobile,address,email) values(?,?,?,?,?)";
+		stmtAdd=conn.prepareStatement(sqlAdd);
+	}
+	@Override
+		public void close() throws Exception {
+			// TODO Auto-generated method stub
+		stmtAdd.close();
+			super.close();
+		}
+	
+
+}

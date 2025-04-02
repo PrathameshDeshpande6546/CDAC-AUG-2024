@@ -1,0 +1,8 @@
+package com.sunbeam.dao;
+
+import com.sunbeam.entity.Customers;
+
+public interface CustomerDao extends AutoCloseable{
+	int add(Customers c)throws Exception;
+
+}

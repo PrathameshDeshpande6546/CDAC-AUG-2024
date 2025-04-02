@@ -1,0 +1,21 @@
+package com.sunbeam.dao;
+
+import java.sql.PreparedStatement;
+
+public class PricingDaoImpl extends Dao implements PricingDao {
+	private PreparedStatement stmtSizeById;
+
+	public PricingDaoImpl() throws Exception {
+		String sqlSizeById="select sizes from pizza_pricing where itemid=?";
+		stmtSizeById=conn.prepareStatement(sqlSizeById);
+		super();
+		
+	}
+	
+	@Override
+	public void close() throws Exception {
+		
+		super.close();
+	}
+
+}

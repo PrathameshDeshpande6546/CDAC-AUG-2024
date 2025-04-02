@@ -1,0 +1,10 @@
+package com.sunbeam.dao;
+
+public class CustomerDaoImpl extends Dao implements CustomerDao {
+
+	public CustomerDaoImpl() throws Exception {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}
